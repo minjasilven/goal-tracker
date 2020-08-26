@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openMainFragment() {
-        val newFragment = MainFragment()
+        val newFragment = CalendarFragment()
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, newFragment)
         transaction.addToBackStack(null)
